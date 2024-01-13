@@ -36,12 +36,7 @@ public class config {
         }
 
     }
-    public static void addData(Connection c){
-        try {
-            Statement st = c.createStatement();
-        } catch (Exception e) {
-            // TODO: handle exception
-        }
+    
     }
 
-}
+
