@@ -15,10 +15,9 @@ public class config {
         // Create variable Conn
         Connection conn = null;
         try {
-            //
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url, userName, passWord);
-            System.out.println("Connect successfully!");
+            // System.out.println("Connect successfully!");
         } catch (Exception e) {
             System.out.println("Connect failure!");
             e.printStackTrace();

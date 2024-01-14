@@ -14,6 +14,10 @@ public class user {
         this.passWord = passWord;
     }
 
+    public user(String userName, String passWord) {
+        this.userName = userName;
+        this.passWord = passWord;
+    }
     public int getId() {
         return id;
     }
